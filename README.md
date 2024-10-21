@@ -51,7 +51,7 @@ public class Main {
 
 Create the project structure as follows:
 1. Create a folder named `resources` in your project root (i.e., at the same level as the `src` folder (NOT inside the `src` folder))
-2. Create a package named "com.example.iolab".
+2. Create a package named "ie.atu.iolab".
 3. In this package, create a class named `Main`.
 4. Add a `main` method to the `Main` class and print "Hello, Java I/O!" to the console.
 5. Run the program to ensure it works correctly.
