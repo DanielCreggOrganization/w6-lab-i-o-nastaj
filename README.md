@@ -386,16 +386,6 @@ public class Main {
         } catch (IOException e) {
             System.err.println("Error processing file: " + e.getMessage());
         }
-
-        // Filtering lines
-        try (Stream<String> lines = Files.lines(Paths.get(inputPath))) {
-            long nonEmptyLines = lines
-                .filter(line -> !line.trim().isEmpty())
-                .count();
-            System.out.println("Non-empty lines: " + nonEmptyLines);
-        } catch (IOException e) {
-            System.err.println("Error processing file: " + e.getMessage());
-        }
     }
 }
 ```
@@ -408,21 +398,11 @@ Let's break down this example:
 
 3. `lines.forEach(line -> ...)`: This operation processes each line individually. It's useful for performing actions on each line, like printing or more complex processing.
 
-4. `lines.filter(line -> !line.trim().isEmpty()).count()`: This chain of operations filters out empty lines and then counts the remaining lines. It demonstrates how we can combine stream operations for more complex processing.
-
 Note that we're using try-with-resources for each stream operation. This ensures that the file is properly closed after we're done processing it.
 
 ### DIY Task
 
 1. Modify the example to count the number of words in the file. (Hint: You'll need to split each line into words.)
-
-2. Implement a filter to count lines that contain a specific word of your choice.
-
-3. Use streams to find the longest line in the file.
-
-4. Create a simple word frequency counter that prints out the top 5 most common words in the file.
-
-5. Bonus: Use `Files.list()` to get a stream of all text files in the resources directory, then process each file to count its lines.
 
 These tasks will help you get familiar with basic stream operations in the context of file I/O. Remember, streams are a powerful tool for data processing, and mastering them will greatly enhance your Java programming skills.
 
