@@ -5,7 +5,6 @@
         "**/.devcontainer": true,
         "**/.vscode": true,
         "**/.gitignore": true,
-        "**/README.md": true,
         "**/.github": true,
     },
     "java.server.launchMode": "Standard",
