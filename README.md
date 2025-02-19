@@ -6,7 +6,7 @@ This lab introduces you to Java Input/Output (I/O) operations, covering file han
 
 ## Agenda
 
-1.  [Project Setup](#1-project-setup) (Covered in Setup)
+1.  [Project Setup](#1-project-setup)
 2.  [Creating and Locating Files](#2-creating-and-locating-files)
 3.  [Reading with Input Streams](#3-reading-with-input-streams)
 4.  [Writing with Output Streams](#4-writing-with-output-streams)
