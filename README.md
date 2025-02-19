@@ -16,7 +16,7 @@ This lab introduces you to Java Input/Output (I/O) operations, covering file han
 
 ---
 
-## Setup
+## 1. Setup
 
 Before you begin, create the necessary project structure:
 
