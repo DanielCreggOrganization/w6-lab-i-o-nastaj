@@ -4,6 +4,16 @@ This lab introduces you to Java Input/Output (I/O) operations, covering file han
 
 ---
 
+## Agenda
+
+1.  [Project Setup](#1-project-setup)
+2.  [Creating and Locating Files](#2-creating-and-locating-files)
+3.  [Reading with Input Streams](#3-reading-with-input-streams)
+4.  [Writing with Output Streams](#4-writing-with-output-streams)
+5.  [Character-based I/O with Readers and Writers](#5-character-based-io-with-readers-and-writers)
+6.  [Buffered I/O Operations](#6-buffered-io-operations)
+7.  [Introduction to File I/O with Streams](#7-introduction-to-file-io-with-streams)
+
 ## Setup
 
 Before you begin, create the necessary project structure:
@@ -26,15 +36,7 @@ Before you begin, create the necessary project structure:
 
 ---
 
-## Agenda
 
-1.  [Project Setup](#1-project-setup) (Covered in the Setup section above)
-2.  [Creating and Locating Files](#2-creating-and-locating-files)
-3.  [Reading with Input Streams](#3-reading-with-input-streams)
-4.  [Writing with Output Streams](#4-writing-with-output-streams)
-5.  [Character-based I/O with Readers and Writers](#5-character-based-io-with-readers-and-writers)
-6.  [Buffered I/O Operations](#6-buffered-io-operations)
-7.  [Introduction to File I/O with Streams](#7-introduction-to-file-io-with-streams)
 
 ---
 
