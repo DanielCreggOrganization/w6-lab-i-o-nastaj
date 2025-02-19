@@ -8,11 +8,10 @@ This lab introduces you to Java Input/Output (I/O) operations, covering file han
 
 Before you begin, create the necessary project structure:
 
-1.  **Create a New Java Project:** In your IDE (e.g., IntelliJ IDEA, Eclipse, VS Code), create a new Java project. You can name it something like `JavaIOLab`.
-2.  **Create a Package:** Inside the `src` folder of your project, create a new package named `ie.atu.iolab`. This helps organize your code.
-3.  **Create a `Main` Class:** Within the `ie.atu.iolab` package, create a new Java class named `Main`. This class will contain your `main` method.
-4.  **Create a `resources` Folder:** *At the same level as your `src` folder* (i.e., in the project's root directory), create a new folder named `resources`. This is where you'll store text files used in the lab. **Important:** Do *not* create the `resources` folder inside the `src` folder.
-5.  **Add a test print:** Add to the main method to ensure that your environment is setup:
+1.  **Create a Package:** Inside the `src` folder, create a new package named `ie.atu.iolab`. This helps organise your code.
+2.  **Create a `Main` Class:** Within the `ie.atu.iolab` package, create a new Java class named `Main`. This class will contain your `main` method.
+3.  **Create a `resources` Folder:** *At the same level as your `src` folder* (i.e., in the project's root directory), create a new folder named `resources`. This is where you'll store text files used in the lab. **Important:** Do *not* create the `resources` folder inside the `src` folder.
+4.  **Add a test print:** Add to the main method to ensure that your environment is setup:
 
     ```java
     package ie.atu.iolab;
@@ -23,7 +22,7 @@ Before you begin, create the necessary project structure:
         }
     }
     ```
-6.  **Run the `Main` Class:** Run your `Main` class. You should see "Java I/O Lab Setup Complete!" printed in the console. This confirms your project is set up correctly.
+5.  **Run the `Main` Class:** Run your `Main` class. You should see "Java I/O Lab Setup Complete!" printed in the console. This confirms your project is set up correctly.
 
 ---
 
