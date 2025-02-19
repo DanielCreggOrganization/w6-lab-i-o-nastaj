@@ -7,9 +7,10 @@
         "redhat.java",
         "vscjava.vscode-java-debug",
         "vscjava.vscode-java-dependency",
-        "VisualStudioExptTeam.vscodeintellicode",
-        "GitHub.copilot@prerelease",
-        "GitHub.copilot-chat@prerelease"
+        "visualstudioexptteam.vscodeintellicode",
+        "github.copilot@prerelease",
+        "github.copilot-chat@prerelease",
+	"bierner.markdown-mermaid"
       ]
     }
   }
