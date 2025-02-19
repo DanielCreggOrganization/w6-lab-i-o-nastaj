@@ -1,6 +1,6 @@
 package ie.atu.testpackage;
 
-class HelloWorld
+class Main
 {
     public static void main(String []args)
     {
