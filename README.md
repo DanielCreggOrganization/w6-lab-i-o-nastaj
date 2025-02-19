@@ -14,6 +14,8 @@ This lab introduces you to Java Input/Output (I/O) operations, covering file han
 6.  [Buffered I/O Operations](#6-buffered-io-operations)
 7.  [Introduction to File I/O with Streams](#7-introduction-to-file-io-with-streams)
 
+---
+
 ## Setup
 
 Before you begin, create the necessary project structure:
@@ -33,10 +35,6 @@ Before you begin, create the necessary project structure:
     }
     ```
 5.  **Run the `Main` Class:** Run your `Main` class. You should see "Java I/O Lab Setup Complete!" printed in the console. This confirms your project is set up correctly.
-
----
-
-
 
 ---
 
